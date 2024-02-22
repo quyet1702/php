@@ -1,0 +1,104 @@
+.container {
+    width: 350px !important;
+}
+.header {
+    height: 23vh;
+    border: 1px solid #ddd;
+}
+
+.header .header-avatar {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.header .header-avatar img {
+    width: 100%;
+    height: auto;
+}
+.header .navigation {
+    height: 30px;
+    margin: auto;
+    border: 1px solid #ddd;
+}
+
+.header .navigation .content-icon {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.header .navigation .content-icon.active {
+    border-radius: 50%;
+    background-color: #ddd;
+}
+.header .navigation .content-icon i {
+    vertical-align: middle;
+}
+.header .navigation .playing .bi-play {
+    display: none;
+}
+.header .navigation .bi-pause-fill {
+    display: none;
+}
+.header .navigation .playing .bi-pause-fill {
+    display: inline;
+}
+.header .navigation .content-icon:hover {
+    border-radius: 50%;
+    background-color: #ddd;
+}
+.header .srollbar {
+    height: 15px;
+    margin: auto;
+    border: 1px solid #ddd;
+}
+.header .tool {
+    margin: auto;
+}
+.header .progress {
+
+    width: 100%;
+}
+.song-list {
+    height: 77vh;
+    border: 1px solid #ddd;
+    overflow-y: auto;
+}
+.song-list .item {
+    height: 70px;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+.song-list .item.active {
+    background-color: #888888;
+    color: #fff;
+}
+.song-list .item:hover {
+    background-color: #999999;
+    color: #fff;
+}
+.song-list .item .info {
+    float: left;
+}
+.song-list .item .singer {
+    font-size: 12px;
+    font-weight: 400;
+}
+.song-list .item .avatar {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.song-list .item .avatar img {
+    max-width: 50px;
+    max-height: 50px;
+}
