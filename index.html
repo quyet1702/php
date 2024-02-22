@@ -54,7 +54,7 @@
         const btnPrevious = $('.btn-previous');
         var songList = $('#song-list');
         const progress = $('.progress');
-        const headerAvatar = $('.header-avatar');
+        const headerAvatar = $('.header-avatar img');
         const btnRepeat = document.querySelector('.btn-repeat');
         const btnRandom = document.querySelector('.btn-random');
         const songs = [
@@ -229,6 +229,7 @@
             },
             setSongActive() {
                 let currentSong = songList.querySelector('.item.active');
+                headerAvatar.src = songs[this.currentSong].link
                 if(currentSong){
                     currentSong.classList.remove('active');
                 }
