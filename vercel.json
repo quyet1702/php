@@ -3,5 +3,8 @@
       "*.php": {
         "runtime": "vercel-php@0.6.1"
       }
-    }
+    },
+    "builds": [
+        { "src": "*.js", "use": "@vercel/node" }
+      ]
   }
